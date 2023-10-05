@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body {
+            background-color: rgb(72, 18, 190);
+            color: antiquewhite;
+            font: arial, sans-serif;
+            font-size: 18pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>aprendendo a usar <strong>DOM</strong> em javascript</p>
+    <div id="msg">Clique em mim</div><br>
+    <div class="msg">Clique em mim</div><br>
+    <div id="clicar">Clique em mim</div><br>
+    <script>
+        
+        var corpo = window.document.body
+        corpo.style.background = 'red'
+
+        var p1 = window.document.getElementsByTagName('p')[1]
+        window.document.write('está escrito assim: ' + p1.innerText)
+        p1.style.color='yellow'
+       
+
+        var d = window.document.getElementById('msg')
+        d.style.background = 'blue'
+        d.style.color = 'black'
+       // d.innerText = ('estou aguardando...') muda o que esta escrito em html pelo javascript
+
+       var x = window.document.getElementsByClassName('msg')[0]
+       x.style.background = 'yellow'
+       x.style.color = 'black'
+
+       var y = window.document.querySelector('div#clicar')
+       y.style.background = 'green'
+       y.style.color = 'black'
+
+
+    </script>
+</body>
+</html>
