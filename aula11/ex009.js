@@ -1,7 +1,7 @@
-var pais = 'brasil'
-console.log(`Vivendo no ${pais}`)
-if (pais == 'brasil') {
-    console.log('você é brasileiro') 
+var estado = 'são paulo'
+console.log(`Vivendo em ${estado}`)
+if (estado == 'são paulo') {
+    console.log('você é Paulista') 
 } else {
-    console.log('você é estrangeiro')
+    console.log('você é de outro estado')
 }
