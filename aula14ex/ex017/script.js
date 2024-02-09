@@ -2,6 +2,7 @@ function calcular() {
     var num = window.document.getElementById('txtn')
     var tab = window.document.getElementById('seltab')
 
+
     if (num.value.length != 0) {
         var n = Number(num.value)
         tab.innerHTML = ''
