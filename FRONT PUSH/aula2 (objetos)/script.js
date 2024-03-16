@@ -52,3 +52,4 @@ retangulo.b = 8;
 retangulo.border = 1;
 
 console.log(retangulo.perimetro());
+
