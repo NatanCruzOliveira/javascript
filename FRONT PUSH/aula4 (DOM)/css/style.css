@@ -5,6 +5,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+body {
   background-color: #ccc;
+}
+
+.red {
+  background-color: red;
+  transition: 1s ease;
 }/*# sourceMappingURL=style.css.map */

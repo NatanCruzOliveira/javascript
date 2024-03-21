@@ -65,3 +65,50 @@ console.log(img.setAttribute('alt', 'Aqui é outra msg')); //Muda o que estava n
 img.removeAttribute('src'); //Remove um atributo
 
 */
+
+// 3 - COMO CRIAR ELEMENTOS COM JS E ALTERAR COM CSS
+
+/*
+let link = document.createElement('a');
+link.setAttribute('href', 'https://google.com.br');
+
+var conteudo = document.createTextNode('Acessar o Google');
+
+link.appendChild(conteudo);
+
+let container = document.getElementById('app');
+container.appendChild(link);
+
+link.style.backgroundColor = 'green';
+link.style.textDecoration = 'none';
+link.style.color = 'white'
+
+let box = document.querySelector('.box');
+box.style.width = '200px';
+box.style.height = '200px';
+box.style.backgroundColor = 'blue';
+
+// 4 - MOSTRAR LARGURA E ALTURA DE ALGUM ELEMENTO OU DA SUA TELA INTEIRA 
+
+console.log(box.clientWidth);
+console.log(box.offsetTop);
+console.log(window.innerWidth);
+console.log(window.outerHeight);
+
+*/
+
+// 5 - TRABALHANDO COM EVENTOS NO DOM
+
+let h1 = document.querySelector('h1');
+
+
+//h1.addEventListener('mousemove', function() {
+//  console.log('O usuário clicou no titulo')
+//})
+
+function callback(event) {
+   h1.classList.toggle('red')
+}
+
+h1.addEventListener('click', callback)
+
