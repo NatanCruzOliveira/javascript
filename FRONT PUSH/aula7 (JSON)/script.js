@@ -1,13 +1,16 @@
-const button = document.querySelector('button');
-const modal = document.getElementById('mymodal');
-const close = document.querySelector('.close')
+//JSON.parse(); //Transforma o texto JSON em objeto
+//JSON.stringify(); //Quero trasnformar um objeto em um arquivo JSON
 
-button.addEventListener('click', function() {
-    modal.classList.add('modal-active');
-})
+const json = JSON.parse('{"id": 1,"nome": "Notebook Dell","modelo": "Gamer","quantidade": 5}');
 
-close.addEventListener('click', function() {
-    modal.classList.remove('modal-active');
-})
+const caneta = {
+    cor: 'azul',
+    formato: 'triangular',
+    tipo: 'desenho'
+}
 
+console.log(json);
 
+const stringjson = JSON.stringify(caneta)
+
+console.log(stringjson);
