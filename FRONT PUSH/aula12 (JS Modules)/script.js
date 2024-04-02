@@ -1,8 +1,11 @@
-axios.get('https://api.github.com/users/natancruzoliveira')
-.then(function(response) {
-    console.log(response);
-})
+import retangulo from "./retangulo";
 
-.catch(function(error) {
-    console.log(error);
-})
+/*
+import {arearetangulo, perimetroretangulo} from './retangulo.js';
+
+import {uppername} from './string';
+
+*/
+
+console.log(retangulo.perimetroretangulo(2, 3))
+console.log(uppername('teste'))
