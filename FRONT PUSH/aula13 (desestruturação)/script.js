@@ -1,8 +1,16 @@
-axios.get('https://api.github.com/users/natancruzoliveira')
-.then(function(response) {
-    console.log(response);
-})
+document.documentElement.addEventListener('mousemove', mousemove)
 
-.catch(function(error) {
-    console.log(error);
-})
+function mousemove(event) {
+
+    const {clientX, clientY} = event;
+
+    //const clientX = event.clientX;
+   // const clientY = event.clientY;
+    console.log(clientX, clientY);
+}
+
+const carros = ['volks', 'fiat', 'bmw'];
+
+const [marca1, marca2, marca3] = carros;
+
+console.log(marca1)
