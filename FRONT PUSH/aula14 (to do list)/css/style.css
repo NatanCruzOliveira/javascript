@@ -7,6 +7,10 @@
 }
 
 body {
-  background-color: #555;
+  background-color: #0f0f0f;
   position: relative;
+}
+
+button {
+  color: black;
 }/*# sourceMappingURL=style.css.map */
