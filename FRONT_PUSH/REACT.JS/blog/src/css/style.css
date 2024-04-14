@@ -40,4 +40,29 @@ p {
 body {
   width: 100%;
   background-color: #050607;
+}
+
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid green;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.border {
+  border: 1px solid red;
 }/*# sourceMappingURL=style.css.map */
