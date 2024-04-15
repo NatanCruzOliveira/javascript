@@ -2,7 +2,6 @@ header{
     max-width: 1200px;
 
     margin: 0 auto;
-    border: 1px solid green;
 
     padding: 8px 24px;
 }
@@ -26,6 +25,7 @@ a{
     max-width: 1200px;
 
     margin: 0 auto;
+    padding: 8px 24px;
 }
 
 .border{
@@ -63,5 +63,27 @@ a{
 
     color: white;
     padding: 8px;
+}
 
+.img-profile{
+    min-width: 56px;
+    height: 56px;
+    background-color: rgb(58, 56, 56);
+    border-radius: 50%;
+}
+
+.viewpost{
+    margin-top: 15px;
+}
+
+.description-profile{
+    margin-left: 10px;
+}
+
+.container-posts{
+    display: flex;
+}
+
+.post{
+    margin: 20px;
 }
