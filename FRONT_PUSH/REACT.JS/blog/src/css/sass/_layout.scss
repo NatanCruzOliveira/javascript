@@ -87,3 +87,23 @@ a{
 .post{
     margin: 20px;
 }
+
+.additens{
+    display: block;
+    font-size: 64px;
+    background-color: green;
+    border: 0;
+    padding: 16px;
+    color: white;
+    border-radius: 10px; 
+}
+
+.removeitens{
+    display: block;
+    font-size: 64px;
+    background-color: red;
+    border: 0;
+    padding: 16px 25px;
+    color: white;
+    border-radius: 10px; 
+}
