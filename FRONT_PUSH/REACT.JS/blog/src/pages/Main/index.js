@@ -1,5 +1,5 @@
-import api from '../../services/api'
-import post from '../../components/Post'
+import api from '../../services/api';
+import post from '../../components/Post';
 
 
 function Main() {
