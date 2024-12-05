@@ -5,3 +5,5 @@ if (estado == 'são paulo') {
 } else {
     console.log('você é de outro estado')
 }
+
+console.log(estado);
